@@ -1,0 +1,81 @@
+End User License Agreement (EULA)
+
+for Rippler
+Version 1.0 - 26/11/2025
+
+This End User License Agreement ("Agreement") is a legal contract between you ("User") and TiltpointAudio ("Licensor") regarding your use of the software audio plug-in known as Rippler ("Software").
+
+By installing, activating, or using the Software, you agree to be bound by the terms of this Agreement. If you do not agree, do not install or use the Software.
+
+1. License Grant
+
+1.1 Trial License
+
+Licensor grants you a personal, non-transferable, time-limited license to use the Software for 30 days from the date of activation ("Trial Period"). After the Trial Period expires, the software will automatically disable state loading and preset exporting.
+
+1.2 Full License (One-Time Purchase)
+
+After purchasing a single-user license, Licensor grants you a non-exclusive, non-transferable, revocable license to install and use the Software on three (3) computers at a time, for personal or professional audio production.
+
+2. Activation via Moonbase
+
+The Software uses the Moonbase activation system. Activation requires an internet connection and may involve the transmission of license and system information to validate your license. This process is subject to our Privacy Policy (available at www.tiltpoint-audio.com/privacy-policy). Licensor is not responsible for service interruptions or outages of the Moonbase platform.
+
+3. Restrictions
+
+You may not:
+
+* Modify, adapt, translate, or create derivative works based on the Software.
+* Reverse engineer, decompile, disassemble, or otherwise attempt to derive the source code of the Software.
+* Rent, lease, loan, resell, sublicense, distribute, or otherwise transfer the Software to any third party.
+* Remove any proprietary notices or labels on the Software.
+* Use the Software in violation of any applicable laws or regulations.
+
+4. Ownership
+
+All rights, title, and interest in the Software remain with the Licensor. The Software is licensed, not sold.
+
+5. Updates and Support
+
+Licensor may, at its discretion, provide updates or support. Updates are governed by this Agreement unless accompanied by a separate license. Support is provided "as available" and is not guaranteed.
+
+6. Termination
+
+This Agreement is effective until terminated. Your rights under this Agreement will terminate automatically without notice from Licensor if you fail to comply with any term(s) of this Agreement. Upon termination, you must cease all use of the Software and destroy all copies in your possession.
+
+7. Disclaimer of Warranty
+
+The Software is provided "as is" without warranties of any kind, whether express or implied, including but not limited to:
+
+* Merchantability
+* Fitness for a particular purpose
+* Non-infringement
+
+You assume all risk regarding the quality and performance of the Software.
+
+8. Limitation of Liability
+
+To the maximum extent allowed by law, Licensor is not liable for:
+
+* Special, incidental, indirect, or consequential damages
+* Loss of profits, business interruption, or data loss
+
+Licensor's total liability under this Agreement is limited to the amount you paid for the Software.
+
+9. Refund Policy
+
+Refunds are issued at our discretion and must be requested within 15 days of purchase, they are generally granted in case of defective product, technical problems with no solution, or other compelling reason, for more information see www.tiltpoint-audio.com/refund-policy.
+
+10. Governing Law
+
+This Agreement is governed by the laws of Portugal. Any disputes shall be resolved exclusively in the courts of Portugal.
+
+11. Entire Agreement
+
+This Agreement constitutes the entire agreement between the parties and supersedes all prior communications or understandings related to the Software.
+
+12. Contact
+
+Tiltpoint.Audio
+Email: tiltpoint.audio@gmail.com
+Website: tiltpoint-audio.com

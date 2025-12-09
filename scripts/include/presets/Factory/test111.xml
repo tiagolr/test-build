@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RIPPLER version="0.5.0" name="test111" id="be5142f280b34554b5ed24727e52ec0d"
+         description="" category="Deleteme" author="" date="20251127T004049.861Z">
+  <PARAMETERS>
+    <PARAM id="a_decay" value="0.9999999403953552"/>
+    <PARAM id="a_ffreq" value="20.0"/>
+    <PARAM id="a_fmode" value="2.0"/>
+    <PARAM id="a_hit" value="0.5"/>
+    <PARAM id="a_inharm" value="0.0"/>
+    <PARAM id="a_material" value="1.0"/>
+    <PARAM id="a_model" value="0.0"/>
+    <PARAM id="a_on" value="1.0"/>
+    <PARAM id="a_out" value="1.0"/>
+    <PARAM id="a_partials" value="8.0"/>
+    <PARAM id="a_pitch" value="0.0"/>
+    <PARAM id="a_radius" value="0.4999999701976776"/>
+    <PARAM id="a_ratio" value="0.0"/>
+    <PARAM id="a_release" value="1.0"/>
+    <PARAM id="a_tone" value="1.0"/>
+    <PARAM id="ab_amount" value="0.0"/>
+    <PARAM id="ab_couple" value="1.0"/>
+    <PARAM id="ab_mix" value="0.5"/>
+    <PARAM id="always_glide" value="0.0"/>
+    <PARAM id="b_decay" value="0.9999999403953552"/>
+    <PARAM id="b_ffreq" value="20.0"/>
+    <PARAM id="b_fmode" value="2.0"/>
+    <PARAM id="b_hit" value="0.2599999904632568"/>
+    <PARAM id="b_inharm" value="0.0"/>
+    <PARAM id="b_material" value="0.0"/>
+    <PARAM id="b_model" value="0.0"/>
+    <PARAM id="b_on" value="0.0"/>
+    <PARAM id="b_out" value="1.0"/>
+    <PARAM id="b_partials" value="8.0"/>
+    <PARAM id="b_pitch" value="0.0"/>
+    <PARAM id="b_radius" value="0.4999999701976776"/>
+    <PARAM id="b_ratio" value="0.0"/>
+    <PARAM id="b_release" value="1.0"/>
+    <PARAM id="b_tone" value="0.0"/>
+    <PARAM id="bend_wheel" value="0.0"/>
+    <PARAM id="env1_att" value="0.09999999403953552"/>
+    <PARAM id="env1_dec" value="0.1499999910593033"/>
+    <PARAM id="env1_del" value="0.0"/>
+    <PARAM id="env1_hld" value="0.0"/>
+    <PARAM id="env1_rel" value="0.5000000029802322"/>
+    <PARAM id="env1_sus" value="0.800000011920929"/>
+    <PARAM id="env1_tenatt" value="0.0"/>
+    <PARAM id="env1_tendec" value="-0.25"/>
+    <PARAM id="env1_tenrel" value="-0.25"/>
+    <PARAM id="env2_att" value="0.09999999403953552"/>
+    <PARAM id="env2_dec" value="0.1499999910593033"/>
+    <PARAM id="env2_del" value="0.0"/>
+    <PARAM id="env2_hld" value="0.0"/>
+    <PARAM id="env2_rel" value="0.5000000029802322"/>
+    <PARAM id="env2_sus" value="0.800000011920929"/>
+    <PARAM id="env2_tenatt" value="0.0"/>
+    <PARAM id="env2_tendec" value="-0.25"/>
+    <PARAM id="env2_tenrel" value="-0.25"/>
+    <PARAM id="env3_att" value="0.09999999403953552"/>
+    <PARAM id="env3_dec" value="0.1499999910593033"/>
+    <PARAM id="env3_del" value="0.0"/>
+    <PARAM id="env3_hld" value="0.0"/>
+    <PARAM id="env3_rel" value="0.5000000029802322"/>
+    <PARAM id="env3_sus" value="0.800000011920929"/>
+    <PARAM id="env3_tenatt" value="0.0"/>
+    <PARAM id="env3_tendec" value="-0.25"/>
+    <PARAM id="env3_tenrel" value="-0.25"/>
+    <PARAM id="env4_att" value="0.09999999403953552"/>
+    <PARAM id="env4_dec" value="0.1499999910593033"/>
+    <PARAM id="env4_del" value="0.0"/>
+    <PARAM id="env4_hld" value="0.0"/>
+    <PARAM id="env4_rel" value="0.5000000029802322"/>
+    <PARAM id="env4_sus" value="0.800000011920929"/>
+    <PARAM id="env4_tenatt" value="0.0"/>
+    <PARAM id="env4_tendec" value="-0.25"/>
+    <PARAM id="env4_tenrel" value="-0.25"/>
+    <PARAM id="l1_fx_chorus_bypass" value="0.0"/>
+    <PARAM id="l1_fx_chorus_on" value="0.0"/>
+    <PARAM id="l1_fx_comp_bypass" value="0.0"/>
+    <PARAM id="l1_fx_comp_on" value="0.0"/>
+    <PARAM id="l1_fx_delay_bypass" value="0.0"/>
+    <PARAM id="l1_fx_delay_on" value="0.0"/>
+    <PARAM id="l1_fx_dist_bypass" value="0.0"/>
+    <PARAM id="l1_fx_dist_on" value="0.0"/>
+    <PARAM id="l1_fx_eq_bypass" value="0.0"/>
+    <PARAM id="l1_fx_eq_on" value="0.0"/>
+    <PARAM id="l1_fx_reverb_bypass" value="0.0"/>
+    <PARAM id="l1_fx_reverb_on" value="0.0"/>
+    <PARAM id="l1_fx_stereo_bypass" value="0.0"/>
+    <PARAM id="l1_fx_stereo_on" value="0.0"/>
+    <PARAM id="l1_fx_stereo_ratio" value="0.3299999833106995"/>
+    <PARAM id="l1_fx_stereo_size" value="20.0"/>
+    <PARAM id="l1_fx_trem_bypass" value="0.0"/>
+    <PARAM id="l1_fx_trem_on" value="0.0"/>
+    <PARAM id="l1_fx_vib_amount" value="0.0"/>
+    <PARAM id="l1_fx_vib_bypass" value="0.0"/>
+    <PARAM id="l1_fx_vib_delay" value="0.0"/>
+    <PARAM id="l1_fx_vib_on" value="1.0"/>
+    <PARAM id="l1_fx_vib_rate" value="3.999999523162842"/>
+    <PARAM id="l1_fx_vib_rise" value="0.0"/>
+    <PARAM id="glide" value="0.0"/>
+    <PARAM id="glide_curve" value="0.0"/>
+    <PARAM id="legato" value="0.0"/>
+    <PARAM id="lfo1_delay" value="0.0"/>
+    <PARAM id="lfo1_delay_sync" value="0.0"/>
+    <PARAM id="lfo1_mode" value="0.0"/>
+    <PARAM id="lfo1_rate" value="1.0"/>
+    <PARAM id="lfo1_rate_sync" value="5.0"/>
+    <PARAM id="lfo1_rise" value="0.0"/>
+    <PARAM id="lfo1_rise_sync" value="0.0"/>
+    <PARAM id="lfo1_smooth" value="0.0"/>
+    <PARAM id="lfo1_sync" value="1.0"/>
+    <PARAM id="lfo2_delay" value="0.0"/>
+    <PARAM id="lfo2_delay_sync" value="0.0"/>
+    <PARAM id="lfo2_mode" value="0.0"/>
+    <PARAM id="lfo2_rate" value="1.0"/>
+    <PARAM id="lfo2_rate_sync" value="5.0"/>
+    <PARAM id="lfo2_rise" value="0.0"/>
+    <PARAM id="lfo2_rise_sync" value="0.0"/>
+    <PARAM id="lfo2_smooth" value="0.0"/>
+    <PARAM id="lfo2_sync" value="1.0"/>
+    <PARAM id="lfo3_delay" value="0.0"/>
+    <PARAM id="lfo3_delay_sync" value="0.0"/>
+    <PARAM id="lfo3_mode" value="0.0"/>
+    <PARAM id="lfo3_rate" value="1.0"/>
+    <PARAM id="lfo3_rate_sync" value="5.0"/>
+    <PARAM id="lfo3_rise" value="0.0"/>
+    <PARAM id="lfo3_rise_sync" value="0.0"/>
+    <PARAM id="lfo3_smooth" value="0.0"/>
+    <PARAM id="lfo3_sync" value="1.0"/>
+    <PARAM id="lfo4_delay" value="0.0"/>
+    <PARAM id="lfo4_delay_sync" value="0.0"/>
+    <PARAM id="lfo4_mode" value="0.0"/>
+    <PARAM id="lfo4_rate" value="1.0"/>
+    <PARAM id="lfo4_rate_sync" value="5.0"/>
+    <PARAM id="lfo4_rise" value="0.0"/>
+    <PARAM id="lfo4_rise_sync" value="0.0"/>
+    <PARAM id="lfo4_smooth" value="0.0"/>
+    <PARAM id="lfo4_sync" value="1.0"/>
+    <PARAM id="lfo_grid" value="8.0"/>
+    <PARAM id="lfo_grid_snap" value="0.0"/>
+    <PARAM id="macro1" value="0.0"/>
+    <PARAM id="macro2" value="0.0"/>
+    <PARAM id="macro3" value="0.0"/>
+    <PARAM id="macro4" value="0.0"/>
+    <PARAM id="l1_mallet_freq" value="600.0000610351562"/>
+    <PARAM id="l1_mallet_mix" value="0.0"/>
+    <PARAM id="l1_mallet_on" value="1.0"/>
+    <PARAM id="l1_mallet_res" value="0.7999999523162842"/>
+    <PARAM id="l1_mallet_type" value="0.0"/>
+    <PARAM id="master_gain" value="0.0"/>
+    <PARAM id="mod10_amt" value="0.5"/>
+    <PARAM id="mod10_ten" value="0.0"/>
+    <PARAM id="mod11_amt" value="0.5"/>
+    <PARAM id="mod11_ten" value="0.0"/>
+    <PARAM id="mod12_amt" value="0.5"/>
+    <PARAM id="mod12_ten" value="0.0"/>
+    <PARAM id="mod13_amt" value="0.5"/>
+    <PARAM id="mod13_ten" value="0.0"/>
+    <PARAM id="mod14_amt" value="0.5"/>
+    <PARAM id="mod14_ten" value="0.0"/>
+    <PARAM id="mod15_amt" value="0.5"/>
+    <PARAM id="mod15_ten" value="0.0"/>
+    <PARAM id="mod16_amt" value="0.5"/>
+    <PARAM id="mod16_ten" value="0.0"/>
+    <PARAM id="mod17_amt" value="0.5"/>
+    <PARAM id="mod17_ten" value="0.0"/>
+    <PARAM id="mod18_amt" value="0.5"/>
+    <PARAM id="mod18_ten" value="0.0"/>
+    <PARAM id="mod19_amt" value="0.5"/>
+    <PARAM id="mod19_ten" value="0.0"/>
+    <PARAM id="mod1_amt" value="0.5"/>
+    <PARAM id="mod1_ten" value="0.0"/>
+    <PARAM id="mod20_amt" value="0.5"/>
+    <PARAM id="mod20_ten" value="0.0"/>
+    <PARAM id="mod21_amt" value="0.5"/>
+    <PARAM id="mod21_ten" value="0.0"/>
+    <PARAM id="mod22_amt" value="0.5"/>
+    <PARAM id="mod22_ten" value="0.0"/>
+    <PARAM id="mod23_amt" value="0.5"/>
+    <PARAM id="mod23_ten" value="0.0"/>
+    <PARAM id="mod24_amt" value="0.5"/>
+    <PARAM id="mod24_ten" value="0.0"/>
+    <PARAM id="mod25_amt" value="0.5"/>
+    <PARAM id="mod25_ten" value="0.0"/>
+    <PARAM id="mod26_amt" value="0.5"/>
+    <PARAM id="mod26_ten" value="0.0"/>
+    <PARAM id="mod27_amt" value="0.5"/>
+    <PARAM id="mod27_ten" value="0.0"/>
+    <PARAM id="mod28_amt" value="0.5"/>
+    <PARAM id="mod28_ten" value="0.0"/>
+    <PARAM id="mod29_amt" value="0.5"/>
+    <PARAM id="mod29_ten" value="0.0"/>
+    <PARAM id="mod2_amt" value="0.5"/>
+    <PARAM id="mod2_ten" value="0.0"/>
+    <PARAM id="mod30_amt" value="0.5"/>
+    <PARAM id="mod30_ten" value="0.0"/>
+    <PARAM id="mod31_amt" value="0.5"/>
+    <PARAM id="mod31_ten" value="0.0"/>
+    <PARAM id="mod32_amt" value="0.5"/>
+    <PARAM id="mod32_ten" value="0.0"/>
+    <PARAM id="mod33_amt" value="0.5"/>
+    <PARAM id="mod33_ten" value="0.0"/>
+    <PARAM id="mod34_amt" value="0.5"/>
+    <PARAM id="mod34_ten" value="0.0"/>
+    <PARAM id="mod35_amt" value="0.5"/>
+    <PARAM id="mod35_ten" value="0.0"/>
+    <PARAM id="mod36_amt" value="0.5"/>
+    <PARAM id="mod36_ten" value="0.0"/>
+    <PARAM id="mod37_amt" value="0.5"/>
+    <PARAM id="mod37_ten" value="0.0"/>
+    <PARAM id="mod38_amt" value="0.5"/>
+    <PARAM id="mod38_ten" value="0.0"/>
+    <PARAM id="mod39_amt" value="0.5"/>
+    <PARAM id="mod39_ten" value="0.0"/>
+    <PARAM id="mod3_amt" value="0.5"/>
+    <PARAM id="mod3_ten" value="0.0"/>
+    <PARAM id="mod40_amt" value="0.5"/>
+    <PARAM id="mod40_ten" value="0.0"/>
+    <PARAM id="mod41_amt" value="0.5"/>
+    <PARAM id="mod41_ten" value="0.0"/>
+    <PARAM id="mod42_amt" value="0.5"/>
+    <PARAM id="mod42_ten" value="0.0"/>
+    <PARAM id="mod43_amt" value="0.5"/>
+    <PARAM id="mod43_ten" value="0.0"/>
+    <PARAM id="mod44_amt" value="0.5"/>
+    <PARAM id="mod44_ten" value="0.0"/>
+    <PARAM id="mod45_amt" value="0.5"/>
+    <PARAM id="mod45_ten" value="0.0"/>
+    <PARAM id="mod46_amt" value="0.5"/>
+    <PARAM id="mod46_ten" value="0.0"/>
+    <PARAM id="mod47_amt" value="0.5"/>
+    <PARAM id="mod47_ten" value="0.0"/>
+    <PARAM id="mod48_amt" value="0.5"/>
+    <PARAM id="mod48_ten" value="0.0"/>
+    <PARAM id="mod49_amt" value="0.5"/>
+    <PARAM id="mod49_ten" value="0.0"/>
+    <PARAM id="mod4_amt" value="0.5"/>
+    <PARAM id="mod4_ten" value="0.0"/>
+    <PARAM id="mod50_amt" value="0.5"/>
+    <PARAM id="mod50_ten" value="0.0"/>
+    <PARAM id="mod51_amt" value="0.5"/>
+    <PARAM id="mod51_ten" value="0.0"/>
+    <PARAM id="mod52_amt" value="0.5"/>
+    <PARAM id="mod52_ten" value="0.0"/>
+    <PARAM id="mod53_amt" value="0.5"/>
+    <PARAM id="mod53_ten" value="0.0"/>
+    <PARAM id="mod54_amt" value="0.5"/>
+    <PARAM id="mod54_ten" value="0.0"/>
+    <PARAM id="mod55_amt" value="0.5"/>
+    <PARAM id="mod55_ten" value="0.0"/>
+    <PARAM id="mod56_amt" value="0.5"/>
+    <PARAM id="mod56_ten" value="0.0"/>
+    <PARAM id="mod57_amt" value="0.5"/>
+    <PARAM id="mod57_ten" value="0.0"/>
+    <PARAM id="mod58_amt" value="0.5"/>
+    <PARAM id="mod58_ten" value="0.0"/>
+    <PARAM id="mod59_amt" value="0.5"/>
+    <PARAM id="mod59_ten" value="0.0"/>
+    <PARAM id="mod5_amt" value="0.5"/>
+    <PARAM id="mod5_ten" value="0.0"/>
+    <PARAM id="mod60_amt" value="0.5"/>
+    <PARAM id="mod60_ten" value="0.0"/>
+    <PARAM id="mod61_amt" value="0.5"/>
+    <PARAM id="mod61_ten" value="0.0"/>
+    <PARAM id="mod62_amt" value="0.5"/>
+    <PARAM id="mod62_ten" value="0.0"/>
+    <PARAM id="mod63_amt" value="0.5"/>
+    <PARAM id="mod63_ten" value="0.0"/>
+    <PARAM id="mod64_amt" value="0.5"/>
+    <PARAM id="mod64_ten" value="0.0"/>
+    <PARAM id="mod6_amt" value="0.5"/>
+    <PARAM id="mod6_ten" value="0.0"/>
+    <PARAM id="mod7_amt" value="0.5"/>
+    <PARAM id="mod7_ten" value="0.0"/>
+    <PARAM id="mod8_amt" value="0.5"/>
+    <PARAM id="mod8_ten" value="0.0"/>
+    <PARAM id="mod9_amt" value="0.5"/>
+    <PARAM id="mod9_ten" value="0.0"/>
+    <PARAM id="mod_wheel" value="0.0"/>
+    <PARAM id="l1_noise_filter_freq" value="20000.0"/>
+    <PARAM id="l1_noise_filter_mode" value="0.0"/>
+    <PARAM id="l1_noise_filter_q" value="0.7070000171661377"/>
+    <PARAM id="l1_noise_mix" value="0.0"/>
+    <PARAM id="l1_noise_on" value="1.0"/>
+    <PARAM id="l1_noise_res" value="0.0"/>
+    <PARAM id="pitch_bend_down" value="-2.0"/>
+    <PARAM id="pitch_bend_up" value="2.0"/>
+    <PARAM id="polyphony" value="8.0"/>
+    <PARAM id="set_reuse_voices" value="1.0"/>
+    <PARAM id="l1_fx_chorus_depth" value="0.5"/>
+    <PARAM id="l1_fx_chorus_feedback" value="0.0"/>
+    <PARAM id="l1_fx_chorus_highcut" value="20000.0"/>
+    <PARAM id="l1_fx_chorus_lowcut" value="20.0"/>
+    <PARAM id="l1_fx_chorus_mix" value="0.5"/>
+    <PARAM id="l1_fx_chorus_rate" value="0.3499999940395355"/>
+    <PARAM id="l1_fx_chorus_voices" value="4.0"/>
+    <PARAM id="l1_fx_delay_feedback"/>
+    <PARAM id="l1_fx_delay_highcut"/>
+    <PARAM id="l1_fx_delay_link" value="1.0"/>
+    <PARAM id="l1_fx_delay_lowcut" value="20.0"/>
+    <PARAM id="l1_fx_delay_mix" value="0.5"/>
+    <PARAM id="l1_fx_delay_mode"/>
+    <PARAM id="l1_fx_delay_rate_l"/>
+    <PARAM id="l1_fx_delay_rate_r" value="0.4999999701976776"/>
+    <PARAM id="l1_fx_delay_rate_sync_l"/>
+    <PARAM id="l1_fx_delay_rate_sync_r" value="4.0"/>
+    <PARAM id="l1_fx_delay_sync_l" value="1.0"/>
+    <PARAM id="l1_fx_delay_sync_r" value="1.0"/>
+    <PARAM id="l1_fx_flanger_bypass"/>
+    <PARAM id="l1_fx_flanger_on"/>
+    <PARAM id="l1_fx_phaser_bypass"/>
+    <PARAM id="l1_fx_phaser_on"/>
+    <PARAM id="l1_mallet_noise"/>
+    <PARAM id="l1_noise_filter_width"/>
+    <PARAM id="set_fadeout_reused_voices"/>
+    <PARAM id="env1_mode"/>
+    <PARAM id="env2_mode"/>
+    <PARAM id="env3_mode"/>
+    <PARAM id="env4_mode"/>
+    <PARAM id="l1_fx_comp_att"/>
+    <PARAM id="l1_fx_comp_gain"/>
+    <PARAM id="l1_fx_comp_makeup"/>
+    <PARAM id="l1_fx_comp_ratio"/>
+    <PARAM id="l1_fx_comp_rel"/>
+    <PARAM id="l1_fx_comp_thresh"/>
+    <PARAM id="l1_fx_dist_color"/>
+    <PARAM id="l1_fx_dist_drive"/>
+    <PARAM id="l1_fx_dist_filter"/>
+    <PARAM id="l1_fx_dist_gain"/>
+    <PARAM id="l1_fx_dist_mix"/>
+    <PARAM id="l1_fx_dist_mode"/>
+    <PARAM id="l1_fx_eq_band1_freq"/>
+    <PARAM id="l1_fx_eq_band1_gain"/>
+    <PARAM id="l1_fx_eq_band1_mode"/>
+    <PARAM id="l1_fx_eq_band1_q"/>
+    <PARAM id="l1_fx_eq_band2_freq"/>
+    <PARAM id="l1_fx_eq_band2_gain"/>
+    <PARAM id="l1_fx_eq_band2_q"/>
+    <PARAM id="l1_fx_eq_band3_freq"/>
+    <PARAM id="l1_fx_eq_band3_gain"/>
+    <PARAM id="l1_fx_eq_band3_q"/>
+    <PARAM id="l1_fx_eq_band4_freq"/>
+    <PARAM id="l1_fx_eq_band4_gain"/>
+    <PARAM id="l1_fx_eq_band4_mode"/>
+    <PARAM id="l1_fx_eq_band4_q"/>
+    <PARAM id="l1_fx_trem_depth"/>
+    <PARAM id="l1_fx_trem_rate"/>
+    <PARAM id="l1_fx_trem_rate_sync"/>
+    <PARAM id="l1_fx_trem_stereo"/>
+    <PARAM id="l1_fx_trem_sync"/>
+    <PARAM id="set_audio_rate"/>
+    <PARAM id="set_audio_rate_blocksize"/>
+    <PARAM id="set_audio_rate_blocksize_fx"/>
+    <PARAM id="set_audio_rate_blocksize_res"/>
+    <PARAM id="set_mpe_enabled"/>
+    <PARAM id="c_decay"/>
+    <PARAM id="c_ffreq"/>
+    <PARAM id="c_fmode"/>
+    <PARAM id="c_hit"/>
+    <PARAM id="c_inharm"/>
+    <PARAM id="c_material"/>
+    <PARAM id="c_model"/>
+    <PARAM id="c_on"/>
+    <PARAM id="c_out"/>
+    <PARAM id="c_partials" value="8.0"/>
+    <PARAM id="c_pitch"/>
+    <PARAM id="c_radius"/>
+    <PARAM id="c_ratio"/>
+    <PARAM id="c_release"/>
+    <PARAM id="c_tone"/>
+    <PARAM id="cd_amount"/>
+    <PARAM id="cd_couple"/>
+    <PARAM id="cd_mix"/>
+    <PARAM id="d_decay"/>
+    <PARAM id="d_ffreq"/>
+    <PARAM id="d_fmode"/>
+    <PARAM id="d_hit"/>
+    <PARAM id="d_inharm"/>
+    <PARAM id="d_material"/>
+    <PARAM id="d_model"/>
+    <PARAM id="d_on"/>
+    <PARAM id="d_out"/>
+    <PARAM id="d_partials" value="8.0"/>
+    <PARAM id="d_pitch"/>
+    <PARAM id="d_radius"/>
+    <PARAM id="d_ratio"/>
+    <PARAM id="d_release"/>
+    <PARAM id="d_tone"/>
+    <PARAM id="l1_fx_reverb_feedback"/>
+    <PARAM id="l1_fx_reverb_highcut"/>
+    <PARAM id="l1_fx_reverb_lowcut"/>
+    <PARAM id="l1_fx_reverb_mix"/>
+    <PARAM id="l1_fx_reverb_moddepth"/>
+    <PARAM id="l1_fx_reverb_modrate"/>
+    <PARAM id="l1_fx_reverb_size"/>
+    <PARAM id="l1_layer_gain"/>
+    <PARAM id="l1_layer_mute"/>
+    <PARAM id="l1_layer_pan"/>
+    <PARAM id="l1_on"/>
+    <PARAM id="l2_fx_chorus_bypass"/>
+    <PARAM id="l2_fx_chorus_depth"/>
+    <PARAM id="l2_fx_chorus_feedback"/>
+    <PARAM id="l2_fx_chorus_highcut"/>
+    <PARAM id="l2_fx_chorus_lowcut"/>
+    <PARAM id="l2_fx_chorus_mix"/>
+    <PARAM id="l2_fx_chorus_on"/>
+    <PARAM id="l2_fx_chorus_rate"/>
+    <PARAM id="l2_fx_chorus_voices"/>
+    <PARAM id="l2_fx_comp_att"/>
+    <PARAM id="l2_fx_comp_bypass"/>
+    <PARAM id="l2_fx_comp_gain"/>
+    <PARAM id="l2_fx_comp_makeup"/>
+    <PARAM id="l2_fx_comp_on"/>
+    <PARAM id="l2_fx_comp_ratio"/>
+    <PARAM id="l2_fx_comp_rel"/>
+    <PARAM id="l2_fx_comp_thresh"/>
+    <PARAM id="l2_fx_delay_bypass"/>
+    <PARAM id="l2_fx_delay_feedback"/>
+    <PARAM id="l2_fx_delay_highcut"/>
+    <PARAM id="l2_fx_delay_link"/>
+    <PARAM id="l2_fx_delay_lowcut"/>
+    <PARAM id="l2_fx_delay_mix"/>
+    <PARAM id="l2_fx_delay_mode"/>
+    <PARAM id="l2_fx_delay_on"/>
+    <PARAM id="l2_fx_delay_rate_l"/>
+    <PARAM id="l2_fx_delay_rate_r"/>
+    <PARAM id="l2_fx_delay_rate_sync_l"/>
+    <PARAM id="l2_fx_delay_rate_sync_r"/>
+    <PARAM id="l2_fx_delay_sync_l"/>
+    <PARAM id="l2_fx_delay_sync_r"/>
+    <PARAM id="l2_fx_dist_bypass"/>
+    <PARAM id="l2_fx_dist_color"/>
+    <PARAM id="l2_fx_dist_drive"/>
+    <PARAM id="l2_fx_dist_filter"/>
+    <PARAM id="l2_fx_dist_gain"/>
+    <PARAM id="l2_fx_dist_mix"/>
+    <PARAM id="l2_fx_dist_mode"/>
+    <PARAM id="l2_fx_dist_on"/>
+    <PARAM id="l2_fx_eq_band1_freq"/>
+    <PARAM id="l2_fx_eq_band1_gain"/>
+    <PARAM id="l2_fx_eq_band1_mode"/>
+    <PARAM id="l2_fx_eq_band1_q"/>
+    <PARAM id="l2_fx_eq_band2_freq"/>
+    <PARAM id="l2_fx_eq_band2_gain"/>
+    <PARAM id="l2_fx_eq_band2_q"/>
+    <PARAM id="l2_fx_eq_band3_freq"/>
+    <PARAM id="l2_fx_eq_band3_gain"/>
+    <PARAM id="l2_fx_eq_band3_q"/>
+    <PARAM id="l2_fx_eq_band4_freq"/>
+    <PARAM id="l2_fx_eq_band4_gain"/>
+    <PARAM id="l2_fx_eq_band4_mode"/>
+    <PARAM id="l2_fx_eq_band4_q"/>
+    <PARAM id="l2_fx_eq_bypass"/>
+    <PARAM id="l2_fx_eq_on"/>
+    <PARAM id="l2_fx_flanger_bypass"/>
+    <PARAM id="l2_fx_flanger_on"/>
+    <PARAM id="l2_fx_phaser_bypass"/>
+    <PARAM id="l2_fx_phaser_on"/>
+    <PARAM id="l2_fx_reverb_bypass"/>
+    <PARAM id="l2_fx_reverb_feedback"/>
+    <PARAM id="l2_fx_reverb_highcut"/>
+    <PARAM id="l2_fx_reverb_lowcut"/>
+    <PARAM id="l2_fx_reverb_mix"/>
+    <PARAM id="l2_fx_reverb_moddepth"/>
+    <PARAM id="l2_fx_reverb_modrate"/>
+    <PARAM id="l2_fx_reverb_on"/>
+    <PARAM id="l2_fx_reverb_size"/>
+    <PARAM id="l2_fx_stereo_bypass"/>
+    <PARAM id="l2_fx_stereo_on"/>
+    <PARAM id="l2_fx_stereo_ratio"/>
+    <PARAM id="l2_fx_stereo_size"/>
+    <PARAM id="l2_fx_trem_bypass"/>
+    <PARAM id="l2_fx_trem_depth"/>
+    <PARAM id="l2_fx_trem_on"/>
+    <PARAM id="l2_fx_trem_rate"/>
+    <PARAM id="l2_fx_trem_rate_sync"/>
+    <PARAM id="l2_fx_trem_stereo"/>
+    <PARAM id="l2_fx_trem_sync"/>
+    <PARAM id="l2_fx_vib_amount"/>
+    <PARAM id="l2_fx_vib_bypass"/>
+    <PARAM id="l2_fx_vib_delay"/>
+    <PARAM id="l2_fx_vib_on" value="1.0"/>
+    <PARAM id="l2_fx_vib_rate"/>
+    <PARAM id="l2_fx_vib_rise"/>
+    <PARAM id="l2_layer_gain"/>
+    <PARAM id="l2_layer_mute"/>
+    <PARAM id="l2_layer_pan"/>
+    <PARAM id="l2_mallet_freq"/>
+    <PARAM id="l2_mallet_mix"/>
+    <PARAM id="l2_mallet_noise"/>
+    <PARAM id="l2_mallet_on"/>
+    <PARAM id="l2_mallet_res"/>
+    <PARAM id="l2_mallet_type"/>
+    <PARAM id="l2_noise_filter_freq"/>
+    <PARAM id="l2_noise_filter_mode"/>
+    <PARAM id="l2_noise_filter_q"/>
+    <PARAM id="l2_noise_filter_width"/>
+    <PARAM id="l2_noise_mix"/>
+    <PARAM id="l2_noise_on"/>
+    <PARAM id="l2_noise_res"/>
+    <PARAM id="l2_on"/>
+    <PARAM id="m_fx_chorus_bypass"/>
+    <PARAM id="m_fx_chorus_depth"/>
+    <PARAM id="m_fx_chorus_feedback"/>
+    <PARAM id="m_fx_chorus_highcut"/>
+    <PARAM id="m_fx_chorus_lowcut"/>
+    <PARAM id="m_fx_chorus_mix"/>
+    <PARAM id="m_fx_chorus_on"/>
+    <PARAM id="m_fx_chorus_rate"/>
+    <PARAM id="m_fx_chorus_voices"/>
+    <PARAM id="m_fx_comp_att"/>
+    <PARAM id="m_fx_comp_bypass"/>
+    <PARAM id="m_fx_comp_gain"/>
+    <PARAM id="m_fx_comp_makeup"/>
+    <PARAM id="m_fx_comp_on"/>
+    <PARAM id="m_fx_comp_ratio"/>
+    <PARAM id="m_fx_comp_rel"/>
+    <PARAM id="m_fx_comp_thresh"/>
+    <PARAM id="m_fx_delay_bypass"/>
+    <PARAM id="m_fx_delay_feedback"/>
+    <PARAM id="m_fx_delay_highcut"/>
+    <PARAM id="m_fx_delay_link"/>
+    <PARAM id="m_fx_delay_lowcut"/>
+    <PARAM id="m_fx_delay_mix"/>
+    <PARAM id="m_fx_delay_mode"/>
+    <PARAM id="m_fx_delay_on"/>
+    <PARAM id="m_fx_delay_rate_l"/>
+    <PARAM id="m_fx_delay_rate_r"/>
+    <PARAM id="m_fx_delay_rate_sync_l"/>
+    <PARAM id="m_fx_delay_rate_sync_r"/>
+    <PARAM id="m_fx_delay_sync_l"/>
+    <PARAM id="m_fx_delay_sync_r"/>
+    <PARAM id="m_fx_dist_bypass"/>
+    <PARAM id="m_fx_dist_color"/>
+    <PARAM id="m_fx_dist_drive"/>
+    <PARAM id="m_fx_dist_filter"/>
+    <PARAM id="m_fx_dist_gain"/>
+    <PARAM id="m_fx_dist_mix"/>
+    <PARAM id="m_fx_dist_mode"/>
+    <PARAM id="m_fx_dist_on"/>
+    <PARAM id="m_fx_eq_band1_freq"/>
+    <PARAM id="m_fx_eq_band1_gain"/>
+    <PARAM id="m_fx_eq_band1_mode"/>
+    <PARAM id="m_fx_eq_band1_q"/>
+    <PARAM id="m_fx_eq_band2_freq"/>
+    <PARAM id="m_fx_eq_band2_gain"/>
+    <PARAM id="m_fx_eq_band2_q"/>
+    <PARAM id="m_fx_eq_band3_freq"/>
+    <PARAM id="m_fx_eq_band3_gain"/>
+    <PARAM id="m_fx_eq_band3_q"/>
+    <PARAM id="m_fx_eq_band4_freq"/>
+    <PARAM id="m_fx_eq_band4_gain"/>
+    <PARAM id="m_fx_eq_band4_mode"/>
+    <PARAM id="m_fx_eq_band4_q"/>
+    <PARAM id="m_fx_eq_bypass"/>
+    <PARAM id="m_fx_eq_on"/>
+    <PARAM id="m_fx_flanger_bypass"/>
+    <PARAM id="m_fx_flanger_on"/>
+    <PARAM id="m_fx_phaser_bypass"/>
+    <PARAM id="m_fx_phaser_on"/>
+    <PARAM id="m_fx_reverb_bypass"/>
+    <PARAM id="m_fx_reverb_feedback"/>
+    <PARAM id="m_fx_reverb_highcut"/>
+    <PARAM id="m_fx_reverb_lowcut"/>
+    <PARAM id="m_fx_reverb_mix"/>
+    <PARAM id="m_fx_reverb_moddepth"/>
+    <PARAM id="m_fx_reverb_modrate"/>
+    <PARAM id="m_fx_reverb_on"/>
+    <PARAM id="m_fx_reverb_size"/>
+    <PARAM id="m_fx_stereo_bypass"/>
+    <PARAM id="m_fx_stereo_on" value="0.0"/>
+    <PARAM id="m_fx_stereo_ratio"/>
+    <PARAM id="m_fx_stereo_size"/>
+    <PARAM id="m_fx_trem_bypass"/>
+    <PARAM id="m_fx_trem_depth"/>
+    <PARAM id="m_fx_trem_on"/>
+    <PARAM id="m_fx_trem_rate"/>
+    <PARAM id="m_fx_trem_rate_sync"/>
+    <PARAM id="m_fx_trem_stereo"/>
+    <PARAM id="m_fx_trem_sync"/>
+    <PARAM id="m_fx_vib_bypass"/>
+    <PARAM id="m_fx_vib_on"/>
+    <PARAM id="rnd1_global"/>
+    <PARAM id="rnd1_mode"/>
+    <PARAM id="rnd1_rate"/>
+    <PARAM id="rnd1_rate_sync"/>
+    <PARAM id="rnd1_sync"/>
+    <PARAM id="rnd2_global"/>
+    <PARAM id="rnd2_mode"/>
+    <PARAM id="rnd2_rate"/>
+    <PARAM id="rnd2_rate_sync"/>
+    <PARAM id="rnd2_sync"/>
+    <PARAM id="set_retrigger_mallet_noise"/>
+    <PARAM id="set_retrigger_noise"/>
+  </PARAMETERS>
+  <LFOS>
+    <LFO1 points="0 0 0 1 0 0.5 1 0 1 0 "/>
+    <LFO2 points="0 0 0 1 0 0.5 1 0 1 0 "/>
+    <LFO3 points="0 0 0 1 0 0.5 1 0 1 0 "/>
+    <LFO4 points="0 0 0 1 0 0.5 1 0 1 0 "/>
+  </LFOS>
+  <MODULATIONS>
+    <CONNECTION id="1" src="key" dst="a_pitch" bipolar="1" bypass="0" mapped="0"
+                mpoints="0 0 0 1 0 1 1 0 1 0"/>
+    <CONNECTION id="2" src="key" dst="b_pitch" bipolar="1" bypass="0" mapped="0"
+                mpoints="0 0 0 1 0 1 1 0 1 0"/>
+    <CONNECTION id="3" src="key" dst="c_pitch" bipolar="1" bypass="0" mapped="0"
+                mpoints="0 0 0 1 0 1 1 0 1 0"/>
+    <CONNECTION id="4" src="key" dst="d_pitch" bipolar="1" bypass="0" mapped="0"
+                mpoints="0 0 0 1 0 1 1 0 1 0"/>
+    <CONNECTION id="5" src="mod" dst="l1_fx_vib_amount" bipolar="0" bypass="0"
+                mapped="0" mpoints="0 0 0 1 0 1 1 0 1 0"/>
+    <CONNECTION id="6" src="mod" dst="l2_fx_vib_amount" bipolar="0" bypass="0"
+                mapped="0" mpoints="0 0 0 1 0 1 1 0 1 0"/>
+  </MODULATIONS>
+  <MANUAL/>
+  <EFFECTS master="1,2,3,4,5,8,9,10" l1="0,1,2,3,4,5,8,9,10" l2="0,1,2,3,4,5,8,9,10"/>
+</RIPPLER>
