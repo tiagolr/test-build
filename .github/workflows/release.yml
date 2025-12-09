@@ -83,6 +83,9 @@ jobs:
           cd artifacts
           zip -r rippler-win-${TAG_NAME}.zip rippler-win
 
+      - name: List artifacts
+        run: ls -R artifacts
+
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
