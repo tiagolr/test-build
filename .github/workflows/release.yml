@@ -72,7 +72,7 @@ jobs:
       - name: Download Windows installer artifact
         uses: actions/download-artifact@v4
         with:
-          name: rippler-win
+          name: rippler-win-exe
           path: artifacts/rippler-win-exe
 
       - name: Append tag to artifacts
