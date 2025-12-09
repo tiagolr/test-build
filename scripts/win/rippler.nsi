@@ -73,7 +73,7 @@ Section "Uninstaller & Registry"
 SectionEnd
 
 !insertmacro MUI_FUNCTION_DESCRIPTION_BEGIN
-    !insertmacro MUI_DESCRIPTION_TEXT ${SecPresets} "Built-in factory presets."
+    !insertmacro MUI_DESCRIPTION_TEXT ${SecPresets} "Factory presets library."
     !insertmacro MUI_DESCRIPTION_TEXT ${SecMallets} "Additional sample based mallets."
 !insertmacro MUI_FUNCTION_DESCRIPTION_END
 
