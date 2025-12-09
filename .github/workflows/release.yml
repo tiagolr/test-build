@@ -69,6 +69,12 @@ jobs:
           name: rippler-win
           path: artifacts/rippler-win
 
+      - name: Download Windows installer artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: rippler-win
+          path: artifacts/rippler-win-exe
+
       - name: Append tag to artifacts
         run: |
           TAG_NAME=${GITHUB_REF#refs/tags/}  # Extracts the tag name, e.g., v1.0.0
