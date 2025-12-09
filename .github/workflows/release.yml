@@ -39,16 +39,23 @@ jobs:
             ./build/Rippler_artefacts/Release/readme.txt
 
       - name: Install NSIS
-        uses: crazy-max/ghaction-nsis@v3
+        uses: repolevedavaj/install-nsis@v1.1.0
+
+      - name: Get version from git tag
+        id: version
+        run: |
+          VERSION=${GITHUB_REF#refs/tags/v}
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
 
       - name: Run makensis
-        run: makensis ./scripts/win/rippler.nsi
+        working-directory: ./scripts/win
+        run: makensis /DVERSION="${{ env.VERSION }}" ./rippler.nsi
 
       - name: Upload installer
         uses: actions/upload-artifact@v4
         with:
           name: rippler-win-exe
-          path: ./scripts/Rippler-Installer.exe
+          path: ./scripts/*.exe
 
   release:
     runs-on: ubuntu-latest
