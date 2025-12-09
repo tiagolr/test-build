@@ -84,5 +84,6 @@ jobs:
           tag_name: ${{ github.ref_name }}
           files: |
             artifacts/rippler-win-*.zip
+            artifacts/rippler-*.exe
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
