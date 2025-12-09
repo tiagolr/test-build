@@ -83,9 +83,6 @@ jobs:
           cd artifacts
           zip -r rippler-win-${TAG_NAME}.zip rippler-win
 
-      - name: List artifacts
-        run: ls -R artifacts
-
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
@@ -93,6 +90,6 @@ jobs:
           tag_name: ${{ github.ref_name }}
           files: |
             artifacts/rippler-win-*.zip
-            artifacts/rippler-*.exe
+            artifacts/rippler-win-exe/*.exe
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
