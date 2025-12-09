@@ -44,8 +44,9 @@ jobs:
       - name: Get version from git tag
         id: version
         run: |
-          VERSION=${GITHUB_REF#refs/tags/v}
-          echo "VERSION=$VERSION" >> $GITHUB_ENV
+          $tag = "${env:GITHUB_REF}"
+          $version = $tag -replace "^refs/tags/v", ""
+          echo "VERSION=$version" | Out-File -FilePath $env:GITHUB_ENV -Append
 
       - name: Run makensis
         working-directory: ./scripts/win
